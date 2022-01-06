@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Takimlar</class>
+ <widget class="QDialog" name="Takimlar">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1049</width>
+    <height>492</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>120</y>
+     <width>681</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <attribute name="horizontalHeaderVisible">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="horizontalHeaderStretchLastSection">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="verticalHeaderVisible">
+    <bool>true</bool>
+   </attribute>
+   <row>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>AD</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>POZİSYON</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>TAKIM</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>YAŞ</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>PERFORMANS PUANI</string>
+    </property>
+    <property name="font">
+     <font>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>FORMA NUMARASI</string>
+    </property>
+   </column>
+   <item row="0" column="0">
+    <property name="text">
+     <string>Barış</string>
+    </property>
+   </item>
+   <item row="0" column="1">
+    <property name="text">
+     <string>Forvet</string>
+    </property>
+   </item>
+   <item row="0" column="2">
+    <property name="text">
+     <string>Galata</string>
+    </property>
+   </item>
+   <item row="0" column="3">
+    <property name="text">
+     <string>18</string>
+    </property>
+   </item>
+   <item row="0" column="4">
+    <property name="text">
+     <string>61</string>
+    </property>
+   </item>
+   <item row="0" column="5">
+    <property name="text">
+     <string>10</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>261</width>
+     <height>431</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

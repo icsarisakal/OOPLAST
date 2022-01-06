@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Oyuncular</class>
+ <widget class="QDialog" name="Oyuncular">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1091</width>
+    <height>588</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>60</y>
+     <width>751</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Futbolcu</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Takımı</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Yaş</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Mevki</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Forma No</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Performans No</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
