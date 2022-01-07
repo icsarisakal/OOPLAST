@@ -52,6 +52,11 @@
      <string>Performans No</string>
     </property>
    </column>
+   <column>
+    <property name="text">
+     <string>Takım Kısaltması</string>
+    </property>
+   </column>
   </widget>
  </widget>
  <resources/>

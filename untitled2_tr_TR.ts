@@ -210,6 +210,11 @@
         <source>Performans No</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location filename="oyuncular.ui" line="57"/>
+        <source>Takım Kısaltması</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>Takim_Ekle</name>

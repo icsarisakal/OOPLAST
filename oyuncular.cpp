@@ -7,6 +7,7 @@ Oyuncular::Oyuncular(QWidget *parent) :
 {
     ui->setupUi(this);
     this->setWindowTitle("Oyuncu Listesi");
+
 }
 
 Oyuncular::~Oyuncular()
@@ -23,11 +24,11 @@ void Oyuncular::setAllTeams(vector<Takim>& a){
     }
 
     ui->tableWidget->setRowCount(countPlayer);
-
+    ui->tableWidget->setSortingEnabled(true);
     for(Takim& as: allTeams){
         for (int i = 0; i < as.getPlayers().size() ; i++) {
             QTableWidgetItem *b;
-            for (int j=0; j<6; j++) {
+            for (int j=0; j<7; j++) {
                 b = new QTableWidgetItem;
                 switch (j) {
                 case 0:
@@ -47,6 +48,9 @@ void Oyuncular::setAllTeams(vector<Takim>& a){
                     break;
                 case 5:
                     b->setText(QString::number(as.getPlayers()[i].getPerformanceNumber()));
+                    break;
+                case 6:
+                    b->setText(QString::fromStdString(as.getAbbr()));
                     break;
                 }
                 ui->tableWidget->setItem(countPlayer,j,b);
